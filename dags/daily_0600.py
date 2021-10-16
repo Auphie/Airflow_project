@@ -12,7 +12,7 @@ subdags_path = Path.joinpath(Air('dummy').root_folder, 'dags', 'subdags')
 default_args = {
     'owner': 'Auphie Chen',
     'start_date': datetime(2020, 4, 29, tzinfo=local_tz),
-    "email": ["auphie.chen@asiayo.com"],
+    "email": ["auphie@gmail.com"],
     "email_on_failure": True,
     "email_on_retry": False,
     "retries": 0
