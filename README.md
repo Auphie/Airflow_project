@@ -1,3 +1,3 @@
 # Airflow_project
 ## data pipelines with MySQL, Google API, BigQuery
-![flow chart](/assets/images/Airflow_project.svg)
+![flow chart](blob/main/Airflow_project.svg)
