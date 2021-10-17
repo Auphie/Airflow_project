@@ -4,7 +4,7 @@
 
 
 ## Infrastructure
-![flow chart](https://github.com/Auphie/Airflow_project/blob/main/Airflow_project.png)
+![flow chart](https://github.com/Auphie/Airflow_project/blob/main/Airflow_proj.png)
 
 
 ## Data sources
