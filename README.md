@@ -1,6 +1,6 @@
 # Airflow_project
 - This project is what I created a small business intelligence system for a start-up. I implemented this whole infrastructure and created 100+ interactive Tableau dashboards with my hand. Therefore, this data infrastructure is valuable for you if your company or team does not have sufficient resources.
-- You can hide sensitive information, e,g., ID, password, connections, via the Airflow admin site. Therefore, pipeline codes do not need this sensitive information, and then the company's information security is protected.
+- You can hide sensitive information, e,g., ID, password, connections, via the Airflow admin site. Therefore, pipeline codes do not contain sensitive information, so the company's information security is then protected.
 
 
 ## Infrastructure
