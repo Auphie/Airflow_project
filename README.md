@@ -1,5 +1,6 @@
 # Airflow_project
-This is my project to create a small business intelligence system for a start-up with one hand.
+- This project is what I created a small business intelligence system for a start-up. I implemented this whole infrastructure and creating 100+ interactive Tableau dashboards with my hand. Therefore, I believe that this infrastructure is valuable for you to reference in your team or company.
+- Airflow can hide sensitive information, e,g., ID, password, connections, in admin site, so pipeline developers are no longer to need the information and the information security can be protected.
 
 ## Infrastructure
 ![flow chart](https://github.com/Auphie/Airflow_project/blob/main/Airflow_project.png)
@@ -10,5 +11,10 @@ This is my project to create a small business intelligence system for a start-up
 - Google Analytics
 - Google Ads
 - Google Sheets
-- Elasticsearch (but I do not provide code here)
+- Elasticsearch (but I would not provide sensitive code here)
 - Tableau Online (use Tabcmd to retrieve data)
+
+## Airflow structure
+* dags: Managed by scheduled time/frequency of pipelines.
+* subdags: Each pipeline has its specific purpose by name.
+* bridge.py: An internal API to manage connection and operations with outside data sources.
