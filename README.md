@@ -1,6 +1,6 @@
 # Airflow_project
-- This project is what I created a small business intelligence system for a start-up. I implemented this whole infrastructure and created 100+ interactive Tableau dashboards with my hand. Therefore, I believe that this infrastructure is valuable for you to reference in your team or a project of your company.
-- Airflow can hide sensitive information, e,g., ID, password, connections, in admin site, so pipeline developers are no longer to need the information and the information security can be protected.
+- This project is what I created a small business intelligence system for a start-up. I implemented this whole infrastructure and created 100+ interactive Tableau dashboards with my hand. Therefore, this data infrastructure is valuable for you if your company or team does not have sufficient resources.
+- You can hide sensitive information, e,g., ID, password, connections, via the Airflow admin site. Therefore, pipeline codes do not need this sensitive information, and then the company's information security is protected.
 
 
 ## Infrastructure
@@ -19,5 +19,5 @@
 
 ## Airflow structure
 * dags folder: Managed by scheduled time/frequency of pipelines.
-* subdags floder: Each pipeline has its specific purpose by name.
+* subdags floder: Each pipeline has its specific purpose from its file name, so the pipelines are easier to maintain.
 * bridge.py: An internal API to connect and operate between data sources and data warehouse.
