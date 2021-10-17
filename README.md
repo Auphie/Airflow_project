@@ -18,6 +18,6 @@
 
 
 ## Airflow structure
-* dags: Managed by scheduled time/frequency of pipelines.
-* subdags: Each pipeline has its specific purpose by name.
-* bridge.py: An internal API to manage connection and operations with outside data sources.
+* dags folder: Managed by scheduled time/frequency of pipelines.
+* subdags floder: Each pipeline has its specific purpose by name.
+* bridge.py: An internal API to connect and operate between data sources and data warehouse.
