@@ -13,7 +13,7 @@
 - Google Analytics
 - Google Ads
 - Google Sheets
-- Elasticsearch (but I would not provide sensitive code here)
+- Elasticsearch (I would not provide sensitive code about this project, however, you can reference my previous project: https://github.com/Auphie/SearchEngine/tree/master/ElasticSearch)
 - Tableau Online (use Tabcmd to retrieve data)
 
 
